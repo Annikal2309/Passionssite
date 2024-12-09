@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  top: 0%;
+  background-color: rgb(195, 175, 142);
+}
+
+.img-w-txt {
+  display: grid;
+  align-items: center;
+}
+
+.img-w-txt > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+img {
+  aspect-ratio: 1/2;
+}
+
+body {
+  background-color: beige;
+}
+
+h1,
+h2 {
+  font-family: rubik;
+  color: black;
+  text-align: left;
+  padding: 30px;
+  height: 70px;
+}
+
+h3 {
+  font-family: akshar;
+  color: black;
+  text-align: left;
+  padding: 30px;
+  height: 70px;
+}
+
+p {
+  font-family: readex pro;
+  color: black;
+  text-align: left;
+  padding: 30px;
+  width: 700px;
+  height: 300px;
+}
